@@ -1,3 +1,10 @@
+# lesson 2
+
+- props 和 state
+- 组件的声明周期
+- 组件之间的状态共享
+- 子组件
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
