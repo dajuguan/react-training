@@ -7,6 +7,7 @@ import { Component } from "react";
 import Color from "./normal/components/Colors";
 import ColorList from "./normal/components/ColorList";
 import Children from "./normal/components/Children";
+import Example from "./Click";
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -59,10 +60,7 @@ export default class App extends Component {
       // <div>
       //   <ColorList colors={colors} onRate={rateColor} onRemove={remove} />
       // </div>
-      <Children>
-        <p>h1</p>
-        <h2>header</h2>
-      </Children>
+      <Example />
     );
   }
 }
