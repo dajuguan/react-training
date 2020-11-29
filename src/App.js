@@ -20,7 +20,7 @@ import logo from "./lesson3_style/assets/logo192.png";
 
 import { ReactComponent as Logo } from "./logo.svg";
 
-@import "./lesson3_style/styles/container.sass"
+import "./lesson3_style/styles/App.sass";
 
 // const StyleContainer = styled.div`
 //   width: 400px;
