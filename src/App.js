@@ -17,11 +17,9 @@ import data from "./lesson3_style/data";
 import styled from "styled-components";
 
 import logo from "./lesson3_style/assets/logo192.png";
+import "./lesson3_style/styles/App.scss";
 
-import { ReactComponent as Logo } from "./logo.svg";
-
-import "./lesson3_style/styles/App.sass";
-
+// import { ReactComponent as Logo } from "./logo.svg";
 // const StyleContainer = styled.div`
 //   width: 400px;
 //   margin: auto;
@@ -34,7 +32,6 @@ import "./lesson3_style/styles/App.sass";
 export default function App() {
   return (
     <div className="container">
-      <Logo />
       <AddColorForm />
       <ColorList />
     </div>
