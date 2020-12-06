@@ -18,6 +18,7 @@ import styled from "styled-components";
 
 import logo from "./lesson3_style/assets/logo192.png";
 import "./lesson3_style/styles/App.scss";
+import ColorProvider from "./ColorProvider";
 
 // import { ReactComponent as Logo } from "./logo.svg";
 // const StyleContainer = styled.div`
@@ -32,8 +33,11 @@ import "./lesson3_style/styles/App.scss";
 export default function App() {
   return (
     <div className="container">
-      <AddColorForm />
-      <ColorList />
+      <ColorProvider>
+        <AddColorForm />
+        <ColorList />
+      </ColorProvider>
+
     </div>
   );
 }

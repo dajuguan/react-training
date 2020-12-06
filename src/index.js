@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./lesson6/Form";
+import App from "./App";
 import Errorboundary from "./lesson6/Errorboundary"
 // import App from "./lesson4/longList";
 
