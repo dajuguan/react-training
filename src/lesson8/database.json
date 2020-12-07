@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "id": "react-training",
+      "name": "React Training"
+    },
+    {
+      "id": "secrect-project",
+      "name": "Secrect Project"
+    }
+  ]
+}

@@ -8,13 +8,14 @@ import Login from "./auth/login"
 
 import "./styles/main.scss"
 import UnauthorizedLayout from "./layouts/UnauthorizedLayout"
-
+import AuthorizedLayout from "./layouts/AuthorizedLayout"
 const App = () => {
     return (
         <Router>
             <AuthUserProvider>
                 <Switch>
                     <Route path="/login" component={UnauthorizedLayout} />
+                    <AuthorizedLayout path="/projects" component={AuthorizedLayout} />
                 </Switch>
             </AuthUserProvider>
         </Router>
