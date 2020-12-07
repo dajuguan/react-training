@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-import Errorboundary from "./lesson6/Errorboundary"
+// import App from "./App";
+import App from "./lesson8/App"
 // import App from "./lesson4/longList";
 
 // import "./lesson4/async";
@@ -10,10 +10,7 @@ import Errorboundary from "./lesson6/Errorboundary"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Errorboundary>
-      <App />
-    </Errorboundary>
-
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
